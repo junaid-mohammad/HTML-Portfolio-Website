@@ -1,107 +1,171 @@
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Junaid Arif's Personal HTML Only Website</title>
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <title>Junaid's Personal Site</title>
-</head>
-
-<body>
-  <table cellspacing="20">
-    <tr>
-      <td><img src="images/junaid-modified.png" alt="junaid profile picture" width="200" height="200"></td>
-      <td>
-        <h1>Mohammad Junaid Arif</h1>
-        <p><em> Computer Engineering Student at <strong><a href="https://www.mcgill.ca/">McGill University</a>.</strong></em></p>
-        <p>I am a student at McGill University majoring in Computer Engineering. I chose Comp Eng because it links the software to the hardware while showcasing the engineering degree. Add more later...</p>
-      </td>
-    </tr>
-  </table>
-  <hr size="3" noshade>
-
-  <h3>Education</h3>
-  <p>
-  <ul>
-    <li>McGill University</li>
-    <ul>
-      <li>Computer Engineering</li>
-      <li>Electrical Engineering</li>
-    </ul>
-    <li>Mastermind School</li>
-    <ul>
-      <li>Physics</li>
-      <li>Chemistry</li>
-      <li>Math</li>
-      <li>Accounting</li>
-    </ul>
-    <li>Green Gems Int'l School</li>
-  </ul>
-  </p>
-  <hr size="3" noshade>
-
-  <h3>Work Experience</h3>
-  <table cellspacing="10">
-    <thead>
+  <body>
+    <!-- Introduction Section with Image and Name -->
+    <table cellspacing="20">
       <tr>
-        <th>What?</th>
-        <th>Where?</th>
-        <th>When?</th>
+        <td>
+          <img
+            src="images/junaid-linkedin.jpg"
+            alt="Junaid Profile Picture"
+            width="200"
+            height="200"
+            style="border-radius: 50%"
+          />
+        </td>
+        <td>
+          <h1 style="font-size: 36px">Junaid Arif</h1>
+          <p style="font-size: 18px">
+            <em
+              >Computer Engineering Student at
+              <a href="https://www.mcgill.ca/">McGill University</a>, graduating
+              in April 2025.</em
+            >
+          </p>
+          <p style="font-size: 18px">
+            Welcome to my corner of the web! I’m Junaid, a soon-to-be computer
+            engineering graduate who balances technology with adventures,
+            cooking, and exploring the world.
+          </p>
+          <p style="font-size: 18px">
+            <strong>Contact:</strong>
+            <a href="mailto:mohammad.junaidarif@mail.mcgill.ca">Email</a> |
+            <a href="https://www.linkedin.com/in/junaidarif-mohammad/"
+              >LinkedIn</a
+            >
+            | <a href="https://github.com/junaid-mohammad">GitHub</a> |
+            <a href="https://junaid-mohammad.github.io/personal-website/"
+              >Portfolio</a
+            >
+          </p>
+        </td>
       </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Team Member</td>
-        <td>Tim Horton's</td>
-        <td>October 2021</td>
-      </tr>
-      <tr>
-        <td>Phonathon Caller</td>
-        <td>University Advancements</td>
-        <td>January 2022</td>
-      </tr>
-    </tbody>
-  </table>
+    </table>
 
-  <hr size="3" noshade>
+    <!-- Single, subtle <hr> after introduction -->
+    <hr size="1" width="80%" noshade />
 
-  <h3>Skills</h3>
+    <!-- Navigation -->
+    <nav>
+      <h3 align="center" style="font-size: 22px">
+        <a href="index.html">Home</a> |
+        <a href="experiences.html">Experiences</a> |
+        <a href="projects.html">Projects</a> |
+        <a href="leadership.html">Leadership & Involvement</a>
+      </h3>
+    </nav>
 
-  <table cellspacing="10">
+    <hr size="1" width="80%" noshade />
 
-    <tr>
-      <td>
-        <table cellspacing="0">
-          <tr>
-            <td>Java</td>
-            <td>&#9734;&#9734;&#9733;&#9733;&#9733;</td>
-          </tr>
-          <tr>
-            <td>Python</td>
-            <td>&#9734;&#9734;&#9734;&#9734;&#9733;</td>
-          </tr>
-        </table>
-      </td>
+    <!-- About Me Section -->
+    <section>
+      <h2 style="font-size: 28px">About Me</h2>
+      <p style="font-size: 18px">
+        Picture this: a tech enthusiast who enjoys cooking a mean curry,
+        capturing drone shots, and renting cars on weekends to discover new
+        cities. I work hard in tech—especially with TypeScript, React, Python,
+        and Docker—but I also enjoy learning new things and exploring the
+        outdoors.
+      </p>
+      <p style="font-size: 18px">
+        Through three co-op internships, I’ve gained hands-on experience in
+        full-stack development, containerization, and AI integration. I push the
+        boundaries of technology while enjoying the stories, experiences, and
+        fun life brings!
+      </p>
+    </section>
 
-      <td>
-        <table cellspacing="0">
-          <tr>
-            <td>Java</td>
-            <td>&#9734;&#9734;&#9733;&#9733;&#9733;</td>
-          </tr>
-          <tr>
-            <td>Python</td>
-            <td>&#9734;&#9734;&#9734;&#9734;&#9733;</td>
-          </tr>
-        </table>
-      </td>
-    </tr>
+    <hr size="1" width="80%" noshade />
 
-  </table>
+    <!-- Key Skills Section -->
+    <section>
+      <h2 style="font-size: 28px">Key Skills & Competencies</h2>
+      <ul style="font-size: 18px">
+        <li>
+          <em>TypeScript, React, Docker, Python:</em> Gained through co-op
+          internships building large-scale apps and automating systems.
+        </li>
+        <li>
+          <em>Full-stack Development:</em> Acquired through a plethora of
+          freelance work and personal projects displayed on the Projects page.
+        </li>
+        <li>
+          <em>AI & ML Integration:</em> Explored during personal projects using
+          natural language processing to solve real-world problems.
+        </li>
+        <li>
+          <em>Problem-Solving & Leadership:</em> Refined by leading teams in
+          hackathons and event planning, ensuring successful outcomes.
+        </li>
+        <li>
+          <em>Continuous Learning:</em> Always curious, whether about new tech
+          or wildlife facts, I constantly seek to expand my knowledge.
+        </li>
+      </ul>
+    </section>
 
-  <hr size="3" noshade>
+    <hr size="1" width="80%" noshade />
 
-  <a href="hobbies.html"> My Hobbies</a>
-  <a href="contact.html">Contact Me</a>
-</body>
+    <!-- Hobbies Section -->
+    <section>
+      <h2 style="font-size: 28px">Hobbies & Fun Stuff</h2>
+      <p style="font-size: 18px">Outside of tech, I love:</p>
+      <ul style="font-size: 18px">
+        <li>
+          <em>Drone Photography:</em> Capturing the world from above and
+          building a personal portfolio.
+        </li>
+        <li>
+          <em>Cooking:</em> Specializing in South Asian cuisine—my curries will
+          have you coming back for more!
+        </li>
+        <li>
+          <em>Weekend Adventures:</em> Renting cars, exploring new cities,
+          hiking mountains, and enjoying nature. (Mountains over the sea, but
+          barely!)
+        </li>
+        <li>
+          <em>Wildlife Enthusiast:</em> Cows are my favorite animals, followed
+          closely by elephants. (Reptiles? I'll pass!)
+        </li>
+        <li>
+          <em>Comedy & Movies:</em> Tuesday nights are for cheap tickets and
+          laughs at the cinema!
+        </li>
+      </ul>
+    </section>
 
+    <hr size="1" width="80%" noshade />
 
+    <!-- Fun Section: Favorite Movies -->
+    <section>
+      <h2 style="font-size: 28px">Top 3 Movies</h2>
+      <ul style="font-size: 18px">
+        <li>
+          <em>Before Sunrise (1995):</em> ★★★★★ - A raw, genuine exploration of
+          love and human connection.
+        </li>
+        <li>
+          <em>Inception (2010):</em> ★★★★★ - A mind-bending sci-fi that
+          beautifully weaves dreams and reality.
+        </li>
+        <li>
+          <em>Horrible Bosses (2011):</em> ★★★★☆ - A hilarious portrayal of
+          work-life chaos and bad leadership, full of laughs.
+        </li>
+      </ul>
+    </section>
+
+    <footer>
+      <p style="font-size: 16px">
+        &copy; 2024 Junaid Arif |
+        <a href="mailto:mohammad.junaidarif@mail.mcgill.ca">Email</a>
+      </p>
+    </footer>
+  </body>
 </html>
