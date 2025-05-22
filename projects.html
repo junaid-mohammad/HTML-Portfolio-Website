@@ -19,6 +19,55 @@
 
     <h2 style="font-size: 28px">Web Development Projects</h2>
 
+    <!-- Family Baggage Project -->
+    <section>
+      <h3 style="font-size: 24px">
+        <a
+          href="https://family-baggage-bxc9g6hhe2gxfgbu.canadacentral-01.azurewebsites.net/"
+          style="text-decoration: underline"
+          >Family Baggage</a
+        >
+        |
+        <a
+          href="https://github.com/junaid-mohammad/Family-Baggage"
+          style="text-decoration: underline"
+          >GitHub</a
+        >
+        |
+        <a
+          href="https://dev.azure.com/Junaid-Arif/Family%20Baggage"
+          style="text-decoration: underline"
+          >Azure DevOps</a
+        >
+        <span style="float: right; font-size: 24px">May 2025</span>
+      </h3>
+      <p><em>Personal Project</em></p>
+      <ul style="font-size: 18px">
+        <li>
+          Developed a comprehensive travel tracking system where each family
+          member can log and color countries they've visited, visualized on an
+          interactive SVG world map.
+        </li>
+        <li>
+          Significantly expanded the architecture from earlier projects with a
+          multi-user system, persistent data models, form validation, and
+          responsive SVG rendering across screen sizes.
+        </li>
+        <li>
+          Connected to a production-grade Azure PostgreSQL Flexible Server with
+          three relational tables and cloud-hosted via Azure App Service, using
+          environment-based database configuration.
+        </li>
+        <li>
+          Built with long-term scalability in mind, featuring clean Express
+          routing, modular EJS views, organized static assets, and full CI/CD
+          pipelines through GitHub Actions and Azure DevOps.
+        </li>
+      </ul>
+    </section>
+
+    <hr size="1" width="80%" noshade />
+
     <!-- What the Flag? Project -->
     <section>
       <h3 style="font-size: 24px">
@@ -44,32 +93,23 @@
       <p><em>Personal Project</em></p>
       <ul style="font-size: 18px">
         <li>
-          Follow-up to Capitalism 🦈, reusing the same full-stack architecture
-          to build a second geography quiz game.
+          Designed as a thematic follow-up to Capitalism, this full-stack quiz
+          app challenges users to identify country flags using a similar Node.js
+          + PostgreSQL architecture.
         </li>
         <li>
-          Built with Node.js, Express, EJS, and PostgreSQL, with an updated
-          flag-based dataset.
+          Reused and extended modular EJS views, routes, and public assets from
+          the Capitalism project to streamline feature development and ensure
+          consistent UI performance.
         </li>
         <li>
-          Features brutal feedback, randomized insult buttons, and a Game Over
-          screen styled for meme-tier slander.
+          Introduced new datasets and dynamic gameplay logic for randomized flag
+          prompts, real-time evaluation, and customized end screens.
         </li>
         <li>
-          Deployed on Azure App Service using GitHub Actions for CI/CD; supports
-          dual local and production environments.
-        </li>
-        <li>
-          Modular structure with partial EJS views and organized public scripts
-          and stylesheets.
-        </li>
-        <li>
-          Responsive layout optimized for all screen sizes, with Flexbox-based
-          design and mobile-first media queries.
-        </li>
-        <li>
-          Uses a separately deployed Azure PostgreSQL Flexible Server with
-          secure environment configuration.
+          Deployed using GitHub Actions to Azure App Service with PostgreSQL
+          hosted on Azure Flexible Server, supporting secure multi-environment
+          configurations.
         </li>
       </ul>
     </section>
@@ -82,7 +122,7 @@
         <a
           href="https://capitalism-hhgph9gsambaf6hm.canadacentral-01.azurewebsites.net/"
           style="text-decoration: underline"
-          >Capitalism.</a
+          >Capitalism</a
         >
         |
         <a
@@ -101,32 +141,24 @@
       <p><em>Personal Project</em></p>
       <ul style="font-size: 18px">
         <li>
-          Developed a fully responsive full-stack quiz game with Node.js,
-          Express, and EJS.
+          Built a full-stack capital city quiz game using Node.js, Express, and
+          EJS, combining dynamic rendering with server-side logic for a clean
+          and interactive experience.
         </li>
         <li>
-          Integrated a live PostgreSQL Flexible Server hosted in Azure to
-          dynamically load country-capital data.
+          Integrated a live PostgreSQL database hosted on Azure to dynamically
+          fetch country-capital data, with secure cloud-to-local environment
+          handling using .env and Azure App Settings.
         </li>
         <li>
-          Designed brutal UX features like rotating insult buttons and a Game
-          Over screen with real-time feedback.
+          Designed a responsive UI/UX with stateful quiz logic, instant
+          feedback, and modular EJS components for improved maintainability and
+          user interaction.
         </li>
         <li>
-          Supported seamless local and production environments using .env files
-          and Azure App Configuration.
-        </li>
-        <li>
-          Configured CI/CD using GitHub Actions to deploy directly to Azure App
-          Service on every push to main.
-        </li>
-        <li>
-          Enabled IP-based firewall, SQL dumping, and table creation via pg_dump
-          and psql for full DB migration.
-        </li>
-        <li>
-          Retained Azure DevOps as a secondary remote for backup source control
-          and future pipeline integration.
+          Deployed on Azure App Service with GitHub Actions for automated CI/CD,
+          and connected to Azure DevOps for project tracking and future pipeline
+          integration.
         </li>
       </ul>
     </section>
